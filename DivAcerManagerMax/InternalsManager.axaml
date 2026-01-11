@@ -84,7 +84,8 @@
                             <ComboBox x:Name="ForceParameterPermanentlyComboBox"
                                       SelectedIndex="0"
                                       HorizontalAlignment="Left"
-                                      MinWidth="280">
+                                      MinWidth="280"
+                                      SelectionChanged="ForceParameterPermanently_OnSelectionChanged">
                                 <ComboBoxItem Content="Disabled" />
                                 <ComboBoxItem Content="Force Predator Model (predator_v4)" />
                                 <ComboBoxItem Content="Force Nitro Model (nitro_v4)" />
